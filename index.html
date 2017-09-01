@@ -1,99 +1,83 @@
 <html>
-
 <head>
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            
+<!-- Latest compiled and minified JavaScript  -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
+            
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
 
-    <!-- Latest compiled and minified JavaScript    -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
-        crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
-
-    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
+            
 </head>
 <style>
-    body {
-        background-color: black;
-    }
-
-    .header {
-        color: yellow;
-        text-align: center;
-        font-size: 4.7vw;
-        font-family: Anton;
-    }
-
-    h2 {
-        color: yellow;
-        text-align: center;
-    }
-
-    .jumbotron {
-        background-color: black;
-    }
-
-    h4 {
-        color: white;
-        font-size: .7 vw;
-    }
-
-    p {
-        color: white;
-        font-size: .7 vw;
-    }
+body {
+    background-color: black;
+}
+.header{
+    color: yellow;
+    text-align: center;
+    font-size: 4.7vw;
+    font-family: Anton;
+}
+h2{
+    color: yellow;
+}
+.jumbotron{
+    background-color: black;
+}
 </style>
-
 <body>
-    <div class="container">
-        <div>
-            <h1 class="header">Ericthegreat<br>Productions</h1>
-        </div>
-        <div>
-            <h2>My name is Eric Miller, I started making Unity Games about 7 years ago, and now am pursueing a job as a front
-                end developer, here is a slide containing links into projects i've completed.
-                <h2>
-        </div>
-        <div id="carousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carousel" data-slide-to="0" class="active"> </li>
-                <li data-target="#carousel" data-slide-to="1"> </li>
-                <li data-target="#carousel" data-slide-to="2"> </li>
-                <li data-target="#carousel" data-slide-to="3"> </li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="item active">
-                    <a href="https://ericmiller777.github.io/Wikipedia_App_freeCodeCamp/">
+<div class="container">
+<div>
+<h1 class="header">Ericthegreat<br>Productions</h1>
+</div>
+<div>
+<h2>My name is Eric Miller, I started making Unity Games about 7 years ago, and now am pursueing a job as a front end developer, here is a slide containing links into projects i've completed.<h2>
+</div>
+<div id="carousel" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#carousel" data-slide-to="0" class="active"> </li>
+<li data-target="#carousel" data-slide-to="1"> </li>
+<li data-target="#carousel" data-slide-to="2"> </li>
+<li data-target="#carousel" data-slide-to="3"> </li>
+</ol>
+<div class="carousel-inner">
+<div class="item active">
+<a href="https://ericmiller777.github.io/Wikipedia_App_freeCodeCamp/">
 <img src="Wikipedia_app.png" alt="Wikipedia App">
 </a>
-                </div>
-                <div class="item">
-                    <img src="Wikipedia_app.png" alt="Wikipedia App">
-                </div>
-                <div class="item">
-                    <img src="Wikipedia_app.png" alt="Wikipedia App">
-                </div>
-                <div class="item">
-                    <img src="Wikipedia_app.png" alt="Wikipedia App">
-                </div>
-            </div>
-            <a class="right carousel-control" href="#carousel" data-slide="next">
+<div class="hidden-xs hidden-sm jumbotron carousel-caption">
+<h4>Wikipedia Viewer</h4>
+<p>Uses the Wikipedia api to let the user searach, and returns links relateing to the query in a informative, and nice way.</p>
+</div>
+</div>
+<div class="item">
+<img src="Wikipedia_app.png" alt="Wikipedia App">
+</div>
+<div class="item">
+<img src="Wikipedia_app.png" alt="Wikipedia App">
+</div>
+<div class="item">
+<img src="Wikipedia_app.png" alt="Wikipedia App">
+</div>
+</div>
+<a class="right carousel-control" href="#carousel" data-slide="next">
 <span class="glyphicon glyphicon-chevron-right"> </span>
 <span class="sr-only">Next</span>
 </a>
-            <a class="left carousel-control" href="#carousel" data-slide="prev">
+<a class="left carousel-control" href="#carousel" data-slide="prev">
 <span class="glyphicon glyphicon-chevron-left"> </span>
 <span class="sr-only">Previous</span>
 </a>
-        </div>
-    </div>
-    <script>
-
-    </script>
+</div>
+</div>
+<script>
+</script>
 </body>
